@@ -4,6 +4,8 @@ This is the simple test project to create GraalVm native image using Spring Boot
 
 ## Getting started
 
+Versions: Java 17, GraalVm 23.0, Spring Boot 3.0.8
+
 ### Lightweight Container with Cloud Native Buildpacks
 
 If you're already familiar with Spring Boot container images support, this is the easiest way to get started.
