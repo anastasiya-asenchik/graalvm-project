@@ -5,7 +5,7 @@ services:
     image: graalvm-project:latest
     container_name: graalvm-project-container
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ../
+      dockerfile: ./environments/Dockerfile
     ports:
       - '8080:8080'

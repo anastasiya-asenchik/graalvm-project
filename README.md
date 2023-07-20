@@ -36,7 +36,7 @@ To create the executable, simply open the terminal in the root of the project an
  docker-compose up -d
 ```
 
-This project contains [Dockerfile](Dockerfile) and [docker-compose](docker-compose.yml) file, where all the configuration is set-upped.
+This project contains [Dockerfile](environments/Dockerfile) and [docker-compose](environments/docker-compose.yml) file, where all the configuration is set-upped.
 
 As we can build a native executable directly with Maven using the `mvn -Pnative native:compile` command, we don't need to run the `native-image` command as a separate step.
 
