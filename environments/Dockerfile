@@ -5,7 +5,7 @@ WORKDIR /app
 COPY pom.xml /app/
 COPY src /app/src/
 
-RUN mvn -Pnative native:compile
+RUN mvn -Pnative native:compile -DskipTests
 
 FROM mirekphd/jenkins-jdk17-on-ubuntu2204:latest
 
