@@ -27,6 +27,6 @@ spring:
 
   liquibase:
     enabled: true
-    change-log: classpath:/migrations/master-changelog.xml
+    change-log: classpath:/db/master-changelog.xml
     user: test_user
     password: password

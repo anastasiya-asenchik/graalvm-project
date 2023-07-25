@@ -7,6 +7,7 @@ public class HintsRegistrar implements RuntimeHintsRegistrar {
 
   @Override
   public void registerHints(RuntimeHints hints, ClassLoader classLoader) {
-    hints.resources().registerPattern("migrations/master-changelog.xml");
+    hints.resources().registerPattern("db/master-changelog.xml");
+    hints.resources().registerPattern("db/changelog/*.xml");
   }
 }
