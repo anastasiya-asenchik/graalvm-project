@@ -1,5 +1,6 @@
 package com.test.graalvmproject;
 
+import com.test.graalvmproject.config.HintsRegistrar;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportRuntimeHints;

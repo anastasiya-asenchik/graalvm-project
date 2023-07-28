@@ -1,4 +1,4 @@
-package com.test.graalvmproject;
+package com.test.graalvmproject.config;
 
 import org.springframework.aot.hint.RuntimeHints;
 import org.springframework.aot.hint.RuntimeHintsRegistrar;
